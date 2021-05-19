@@ -1,7 +1,10 @@
 import React from "react";
+import Login from "./Login";
 
-function App() {
-  return <div>Webpack React Template</div>;
+export default function App() {
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 }
-
-export default App;

@@ -6,7 +6,7 @@ module.exports = merge(common, {
   devtool: "inline-source-map",
   devServer: {
     host: "localhost",
-    port: 4000,
+    port: 4005,
     disableHostCheck: true,
     historyApiFallback: true,
     proxy: {

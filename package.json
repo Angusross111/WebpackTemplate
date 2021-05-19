@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "./build.sh"
   },
   "keywords": [],
   "author": "Angus Ross",
@@ -25,6 +25,11 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "webpack-merge": "^5.4.0"
+    "webpack-merge": "^5.4.0",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.0.0",
+    "@material-ui/pickers": "^3.2.2",
+    "@material-ui/styles": "^4.11.3",
+    "base-64": "^1.0.0"
   }
 }
